@@ -1,5 +1,9 @@
 # Degraded-Images-Restoration
 
+## Introduction
+
+Old images store a ton of knowledge, proof and memories. But, when these images degrades over time, it is quite painful. So, the "Degraded Images Restoration" project addressess such needs by restoring and preserving cherished or important old photos that may have degraded over time. It enhances historically significant photos for educational and archival purposes, utilizing advanced machine learning and image processing to achieve high-quality restoration. The project is designed to be user-friendly, making photo restoration accessible to both hobbyists and professionals, while its modular design allows users to tailor the toolkit to their specific needs. Additionally, its open-source nature encourages community contributions and continuous improvement, helping to preserve important visual records of the past with advanced technology and user-friendly tools.
+
 ## Installation
 
 Clone the Synchronized-BatchNorm-PyTorch repository for
