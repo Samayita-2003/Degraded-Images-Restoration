@@ -7,14 +7,14 @@ Clone the Synchronized-BatchNorm-PyTorch repository for
 ```
 cd Face_Enhancement/models/networks/
 git clone https://github.com/vacancy/Synchronized-BatchNorm-PyTorch
-cp -rf Synchronized-BatchNorm-PyTorch/sync_batchnorm .
+xcopy Synchronized-BatchNorm-PyTorch\sync_batchnorm .\sync_batchnorm /E /I /Y
 cd ../../../
 ```
 
 ```
 cd Global/detection_models
 git clone https://github.com/vacancy/Synchronized-BatchNorm-PyTorch
-cp -rf Synchronized-BatchNorm-PyTorch/sync_batchnorm .
+xcopy Synchronized-BatchNorm-PyTorch\sync_batchnorm .\sync_batchnorm /E /I /Y
 cd ../../
 ```
 
@@ -22,7 +22,7 @@ Download the landmark detection pretrained model
 
 ```
 cd Face_Detection/
-wget http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2
+curl -O http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2
 bzip2 -d shape_predictor_68_face_landmarks.dat.bz2
 cd ../
 ```
@@ -31,11 +31,11 @@ Download the pretrained model, put the file `Face_Enhancement/checkpoints.zip` u
 
 ```
 cd Face_Enhancement/
-wget https://github.com/microsoft/Bringing-Old-Photos-Back-to-Life/releases/download/v1.0/face_checkpoints.zip
+curl -O https://github.com/microsoft/Bringing-Old-Photos-Back-to-Life/releases/download/v1.0/face_checkpoints.zip
 unzip face_checkpoints.zip
 cd ../
 cd Global/
-wget https://github.com/microsoft/Bringing-Old-Photos-Back-to-Life/releases/download/v1.0/global_checkpoints.zip
+curl -O https://github.com/microsoft/Bringing-Old-Photos-Back-to-Life/releases/download/v1.0/global_checkpoints.zip
 unzip global_checkpoints.zip
 cd ../
 ```
