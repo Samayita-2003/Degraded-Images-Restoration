@@ -45,7 +45,7 @@ Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
-## :rocket: How to use?
+## How to use?
 
 **Note**: GPU can be set 0 or 0,1,2 or 0,2; use -1 for CPU
 
